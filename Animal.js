@@ -26,7 +26,22 @@ class Animal {
     }
 }
 
+class Mamifero extends Animal{
+
+}
+
+class Cachorro extends Mamifero{
+    latir(){
+        console.log('AUAUAU')
+    }
+}
+
+class Gato extends Mamifero{
+    
+}
+
 const a1 = new Animal('Bento','macaco',25,75)
+
 
 a1.apresentar();
 a1.comer();

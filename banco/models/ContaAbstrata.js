@@ -6,7 +6,7 @@ class ContaAbstrata {
     constructor(numero, cliente){
         this.numero = numero
         this.cliente = cliente
-        this.saldo = 0
+        this.#saldo = 0
     }
 
     depositar(valor){

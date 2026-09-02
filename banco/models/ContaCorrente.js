@@ -8,7 +8,7 @@ class ContaCorrente extends ContaAbstrata{
     }
 
     sacar(valor){
-        
+        // SOBRESCREVENDO O METODO ( POLIMORFISMO)  
         let valorTaxa = valor * this.#taxaSaque;
         let valorTotal = valor + valorTaxa;
         super.sacar(valorTotal);

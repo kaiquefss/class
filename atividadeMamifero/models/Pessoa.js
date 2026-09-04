@@ -1,3 +1,5 @@
+import Mamifero from '../models/Mamifero.js'
+
 class Pessoa extends Mamifero {
     inventario;
     constructor(nome) {
